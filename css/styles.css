@@ -49,11 +49,11 @@
     line-height: .50;
 }
 
-.navbar-brand a,
+/* .navbar-brand a,
 .navbar-brand a:hover,
 .navbar-brand a:focus {
     text-decoration: none;
-}
+} */
 
 /*********************************** Body ***********************************/
 body {

@@ -10,6 +10,11 @@
 
 }
 
+.svg:bi use {
+    xlink: "#moon-stars-fill";
+    href: "#moon-stars-fill";
+}
+
 /* ---------------------- DARK THEME ---------------------- */
 :root.dark {
     --bg: #0f1115;
@@ -20,6 +25,11 @@
     --brand-text: #c8e8ff;
     --brand-shadow: rgba(0, 0, 0, 0.6);
 
+}
+
+.svg:bi use.dark {
+    xlink: "#sun-fill";
+    href: "#sun-fill";
 }
 
 /*********************************** APPLY VARIABLES ***********************************/

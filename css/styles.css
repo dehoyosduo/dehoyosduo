@@ -52,6 +52,12 @@
     font-weight: normal;
 }
 
+.svg:bi {
+    width: 24px;
+    height: 24px;
+    fill: currentColor;
+}
+
 /*********************************** Body Text ***********************************/
 body {
     font-size: 12px;

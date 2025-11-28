@@ -1,5 +1,12 @@
 /*********************************** Fonts ***********************************/
 @font-face {
+    font-family: 'Noah';
+    src: url('../fonts/noah/noah-regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
     font-family: 'TanSongBird';
     src: url('../fonts/TANSONGBIRD.woff2') format('woff2');
     font-weight: normal;
@@ -46,8 +53,8 @@
 }
 
 .nav-item {
-    font-family: 'BubblebodyNeue', sans-serif;
-    font-size: 22px;
+    font-family: 'Noah', sans-serif;
+    font-size: 20px;
     text-transform: camelcase;
     font-weight: normal;
 }
@@ -55,5 +62,12 @@
 /*********************************** Body Text ***********************************/
 body {
     font-size: 12px;
-    font-family: 'BubblebodyNeue', sans-serif;
+    font-family: 'Noah', sans-serif;
+}
+
+.carousel-inner img {
+    max-height: 500px;
+    object-fit: cover;
+    width: 100%;
+
 }

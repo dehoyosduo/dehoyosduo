@@ -1,0 +1,46 @@
+/* ---------------------- LIGHT THEME ---------------------- */
+:root {
+    --bg: #FFFFFF;
+    --text: #043854;
+
+    --header-bg: #F3F5F9;
+
+    --brand-text: #043854;
+    --brand-shadow: #c1bebe;
+
+}
+
+/* ---------------------- DARK THEME ---------------------- */
+:root.dark {
+    --bg: #0f1115;
+    --text: #d9e6f2;
+
+    --header-bg: #181c23;
+
+    --brand-text: #c8e8ff;
+    --brand-shadow: rgba(0, 0, 0, 0.6);
+
+}
+
+/*********************************** APPLY VARIABLES ***********************************/
+body {
+    background-color: var(--bg);
+    color: var(--text);
+}
+
+#header-nav {
+    background-color: var(--header-bg);
+}
+
+.navbar-brand h1 {
+    color: var(--brand-text);
+    text-shadow: 1px 1px 0px var(--brand-shadow);
+}
+
+.nav-item {
+    color: var(--text);
+}
+
+#logo-img {
+    background: var(--logo-img) no-repeat;
+}

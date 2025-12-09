@@ -1,5 +1,12 @@
 /*********************************** Fonts ***********************************/
 @font-face {
+    font-family: 'Noah';
+    src: url('../fonts/noah/noah-regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
     font-family: 'TanSongBird';
     src: url('../fonts/TANSONGBIRD.woff2') format('woff2');
     font-weight: normal;
@@ -46,14 +53,39 @@
 }
 
 .nav-item {
-    font-family: 'BubblebodyNeue', sans-serif;
-    font-size: 22px;
+    font-family: 'Noah', sans-serif;
+    font-size: 20px;
     text-transform: camelcase;
     font-weight: normal;
+}
+
+/*********************************** Theme Button ***********************************/
+.theme-toggle {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+}
+
+.theme-toggle .theme-icon {
+    display: block;
+    width: 24px;
+    height: 24px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: background-image 0.3s ease;
 }
 
 /*********************************** Body Text ***********************************/
 body {
     font-size: 12px;
-    font-family: 'BubblebodyNeue', sans-serif;
+    font-family: 'Noah', sans-serif;
+}
+
+.carousel-inner img {
+    max-height: 500px;
+    object-fit: cover;
+    width: 100%;
+
 }

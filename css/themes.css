@@ -8,12 +8,7 @@
     --brand-text: #043854;
     --brand-shadow: #c1bebe;
 
-    --theme-icon: url('../images/icons/cart.png');
-}
-
-.svg:bi use {
-    xlink: "#moon-stars-fill";
-    href: "#moon-stars-fill";
+    --theme-icon: url('../images/icons/moon.png');
 }
 
 /* ---------------------- DARK THEME ---------------------- */
@@ -26,12 +21,7 @@
     --brand-text: #F3F5F9;
     --brand-shadow: rgba(255, 255, 255, 0.342);
 
-    --theme-icon: url('../images/icons/user.png');
-}
-
-.svg:bi use.dark {
-    xlink: "#sun-fill";
-    href: "#sun-fill";
+    --theme-icon: url('../images/icons/sun.png');
 }
 
 /*********************************** APPLY VARIABLES ***********************************/

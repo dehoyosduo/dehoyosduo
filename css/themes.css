@@ -8,18 +8,20 @@
     --brand-text: #043854;
     --brand-shadow: #c1bebe;
 
+    --theme-icon: url('../images/icons/moon.png');
 }
 
 /* ---------------------- DARK THEME ---------------------- */
 :root.dark {
-    --bg: #0f1115;
-    --text: #d9e6f2;
+    --bg: #043854;
+    --text: #F3F5F9;
 
-    --header-bg: #181c23;
+    --header-bg: #043854;
 
-    --brand-text: #c8e8ff;
-    --brand-shadow: rgba(0, 0, 0, 0.6);
+    --brand-text: #F3F5F9;
+    --brand-shadow: rgba(255, 255, 255, 0.342);
 
+    --theme-icon: url('../images/icons/sun.png');
 }
 
 /*********************************** APPLY VARIABLES ***********************************/
@@ -37,10 +39,14 @@ body {
     text-shadow: 1px 1px 0px var(--brand-shadow);
 }
 
-.nav-item {
+.nav-link {
     color: var(--text);
 }
 
 #logo-img {
     background: var(--logo-img) no-repeat;
+}
+
+.theme-toggle .theme-icon {
+    background-image: var(--theme-icon);
 }

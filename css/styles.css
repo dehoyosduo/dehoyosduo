@@ -59,6 +59,24 @@
     font-weight: normal;
 }
 
+/*********************************** Theme Button ***********************************/
+.theme-toggle {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+}
+
+.theme-toggle .theme-icon {
+    display: block;
+    width: 24px;
+    height: 24px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: background-image 0.3s ease;
+}
+
 /*********************************** Body Text ***********************************/
 body {
     font-size: 12px;
